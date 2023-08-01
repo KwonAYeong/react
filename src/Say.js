@@ -14,7 +14,7 @@ const Say = (props) => {  // props 대신 {프로퍼티명1, 프로퍼티명2...
     return (
         <div>
             {/* 이벤트 바인딩 할 때는 카멜캐이스로 변형해서 한다.
-            on이벤트명={위에서 선언한 함수} */}
+                 on이벤트명={위에서 선언한 함수} */}
             <button onClick={onClickEvent}>변경</button>
             <div> 인사하겠습니다 : {msg} </div>
         </div>

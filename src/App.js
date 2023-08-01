@@ -2,6 +2,7 @@ import React from 'react';
 import MyComponent from './MyComponent';
 import YourComponent from './YourComponent';
 import Say from './Say';
+import ArrayChange from './ArrayChange';
 
 function App() {
   return (
@@ -12,8 +13,8 @@ function App() {
       {/* YourComponent 에 country 라는 명칭으로 나라이름을 넣어서 전달해주시고
       YourComponent.js 에서 DIV 태그 사이에 실제로 출력해보세요. */}
       <YourComponent country="한국" />
-
       <Say msg= "안녕하세요" />
+      <ArrayChange />
     </>
 
     
